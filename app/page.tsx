@@ -113,3 +113,20 @@ export default function Home() {
     </main>
   )
 }
+
+import { FaFacebookF } from "react-icons/fa";
+
+// Add this after the last section, before closing the main tag
+<footer className="bg-green-800 text-white py-8">
+  <div className="max-w-7xl mx-auto px-4 flex flex-col items-center">
+    <a 
+      href="https://www.facebook.com/homestayrumahkebun/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="hover:text-green-300 transition-colors"
+    >
+      <FaFacebookF className="text-2xl" />
+    </a>
+    <p className="mt-4 text-sm">© 2024 Rumah Kebun. All rights reserved.</p>
+  </div>
+</footer>
